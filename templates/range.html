@@ -1,0 +1,63 @@
+location.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2</title>
+    <style>
+       div{text-align: center;}
+    </style>
+  </head>
+  <body>
+        <div>
+          <a href="/">Home PAGE</a>
+        </div>
+        <div>
+          <form action="range" method="post">
+            <div>
+              <input
+                type="number"
+                placeholder="Enter latitude"
+                name="latitude"
+                step="any"
+                value="32.705002"
+                required
+              />
+            </div>
+            <div>
+              <input
+                type="number"
+                placeholder="Enter longitude"
+                name="longitude"
+                step="any"
+                value="-97.122780"
+                required
+              />
+            </div>
+            <div>
+              <input
+                type="number"
+                placeholder="Enter radius in KM"
+                name="radius"
+                step="any"
+                required
+              />
+            </div>
+            <div>
+              <input
+                type="submit"
+                value="Earthquakes within radius"
+                class="btn"
+              />
+            </div>
+          </form>
+        </div>
+        <div style="margin-top: 20px">
+          <p>The default values are the coordinates of Arlington</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
